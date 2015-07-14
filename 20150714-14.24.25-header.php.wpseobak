@@ -11,6 +11,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title><?php wp_title( '|', true, 'right' ); ?></title>	
 		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta name="description" content="A countdown website for The Weeknd's (Abel Tesfaye) new album Beauty Behind The Madness (BBTM) being released on August 28, 2015. XO XO XO XO Joanna De Los Santos XO XO XO XO. The Weeknd: Countdown to Beauty Behind The Madness.">
 		<meta name=”robots” content=”noindex, nofollow” />
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 

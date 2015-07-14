@@ -15,7 +15,8 @@
 						<?php wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
 					
-					<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>
+					<p class="pull-right"><a href="http://theweeknd.com" title="This Weeknd Lover" target="_blank">The Weeknd</a>
+                    <span class="small">Made with love by <a href="http://twitter.com/simplyjojoo" title="Joanna" target="_blank">Joanna</a></span></p>
 			
 					<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
 				
@@ -31,10 +32,18 @@
 		<![endif]-->
 		
 		<?php wp_footer(); // js scripts are inserted using this function ?>
+        <script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.countdown.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		<!-- remove this for production -->
+  ga('create', 'UA-45993369-2', 'auto');
+  ga('send', 'pageview');
 
-		<script src="//localhost:35729/livereload.js"></script>
+</script>
+
 
 	</body>
 

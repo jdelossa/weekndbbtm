@@ -21,26 +21,34 @@ Template Name: Homepage
 								$featured_src = wp_get_attachment_image_src( $post_thumbnail_id, 'wpbs-featured-home' );
 							?>
 
-							<div class="jumbotron" style="background-image: url('<?php echo $featured_src[0]; ?>'); background-repeat: no-repeat; background-position: 0 0;">
-				
-								<div class="page-header">
-									<h1><?php bloginfo('title'); ?><small><?php echo get_post_meta($post->ID, 'custom_tagline' , true);?></small></h1>
-								</div>				
-								
-							</div>
+                            <div id="clock" class="clock"></div>
+                            <script type="text/javascript">
+                                jQuery(function ($) {
+                                    $('#clock').countdown('2015/08/28', function(event) {
+                                        var $this = $(this).html(event.strftime(''
+                                        + '<span>%w</span> weeks '
+                                        + '<span>%d</span> days '
+                                        + '<span>%H</span> hr '
+                                        + '<span>%M</span> min '
+                                        + '<span>%S</span> sec'));
+                                    });
+                                });
+                            </script>
+
+							<div class="jumbotron"></div>
 						
 						</header>
-						
-						<section class="row post_content">
-						
-							<div class="col-sm-12">
-						
-								<?php the_content(); ?>
-								
-							</div>
-							
 
-													
+						<section class="row post_content">
+
+							<div class="col-sm-12">
+
+								<?php the_content(); ?>
+
+							</div>
+
+
+
 						</section> <!-- end article header -->
 						
 						<footer>
