@@ -9075,17 +9075,17 @@ blockquote {
     font-size: 7px;
     margin: 0 2px;
   }
-  .navbar-static-top .clock {
+  .clock {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .navbar-static-top .clock span {
-    font-size: 22.5px;
+  .clock span {
+    font-size: 18px;
   }
-  .navbar-static-top .instagram-placeholder {
+  .instagram-placeholder {
     width: 100%;
   }
-  .navbar-static-top footer p {
+  footer p {
     text-align: center;
     width: 100%;
   }
