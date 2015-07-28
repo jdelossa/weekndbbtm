@@ -21,6 +21,8 @@ Template Name: Homepage
 								$featured_src = wp_get_attachment_image_src( $post_thumbnail_id, 'wpbs-featured-home' );
 							?>
 
+                            <div id="about">
+
                             <div id="clock" class="clock"></div>
                             <script type="text/javascript">
                                 jQuery(function ($) {
@@ -35,7 +37,9 @@ Template Name: Homepage
                                 });
                             </script>
 
-							<div class="jumbotron"></div>
+                            </div>
+
+							<!--<div class="jumbotron"></div>-->
 						
 						</header>
 
@@ -43,11 +47,15 @@ Template Name: Homepage
 
 							<div class="col-sm-12">
 
-								<?php the_content(); ?>
+                                <div id="tracks">
+								    <?php the_content(); ?>
+                                </div>
+
+                                <div class="instagram">
+                                    <h4 id="bbtm">Beauty Behind The Madness</h4>
+                                </div>
 
 							</div>
-
-
 
 						</section> <!-- end article header -->
 						

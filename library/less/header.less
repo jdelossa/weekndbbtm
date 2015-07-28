@@ -1,44 +1,119 @@
-body {
-  padding-top: 0;
-  background-color: @color-black;
-}
-h1, h2, h3, h4, h5, h6, p {
-  color: @color-white;
-}
-a {
-  color: @color-yellow;
-  text-decoration: underline;
-}
-.navbar-static-top {
-  background-color: @color-black;
-  height: 190px;
-  .navbar-header {
-    width: 75%;
-    margin: auto;
-    position: absolute;
+.header-fixed-top {
+  background-color: @color-red;
+  box-shadow: #040101 0px 3px 3px;
+  height: 30px;
+  position: fixed;
+    top: 0;
     left: 0;
     right: 0;
+  width: 100%;
+  z-index: 1060;
+
+    a > p {
+      border-left: 1px solid fade(@color-black, 20%);
+      border-right: 1px solid fade(@color-black, 20%);
+      display: inline;
+      padding: 9px;
+      position: relative;
+        top: 4px;
+      text-transform: uppercase;
+
+      &:hover, &:focus, &:active {
+        border-color: @color-yellow;
+        color: @color-yellow;
+        text-decoration: none !important;
+      }
+    }
+
+    a > i.fa {
+      color: @color-white;
+      font-size: 18px;
+      padding-left: 25px;
+      position: relative;
+        top: 6px;
+      
+      &:hover, &:focus, &:active {
+        color: @color-yellow;
+      }
+    }
+
+    a > .xo {
+      background-image: url('images/XO.png');
+      float: right;
+      height: 30px;
+      width: 30px;
+      &:hover, &:focus, &:active {
+        background-image: url('images/XO-hover.png');
+      }
+    }
+
+}
+.navbar-static-top {
+  background-image: url('images/roseBackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: @color-black;
+  box-shadow: #040101 0px 3px 3px;
+  height: 150px;
+  top: 12px;
+    .navbar-header {
+      text-align: center;
+      width: 100%;
+
+        .navbar-brand {
+          position: absolute;
+            left: 0;
+            right: 0;
+          img {
+            margin: 25px auto;
+            width: 280px;
+          }
+        }
+    }
+
+    .navbar-collapse {
+      background-color: @color-black;
+      position: relative;
+        top: 150px;
+      width: 100%;
+
+      .navbar-nav {
+        float: none;
+        margin: 0;
+        text-align: CENTER;
+        li {
+          float: none;
+          display: inline-block;
+        }
+        li > a {
+          text-transform: uppercase;
+          margin: 0 5px;
+
+          &:hover, &:active, &:focus {
+            background-color: @color-red;
+            color: @color-white;
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+
+  .navbar-toggle {
+    position: fixed;
+    background-color: fade(@color-black, 80%);
+    left: 0;
+    top: 40px;
+      .icon-bar {
+        background-color: #ffffff;
+        color: #ffffff;
+      }
   }
-  .navbar-brand {
-    background: url("images/tw.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 325px ;
-    border: solid 1px @color-white;
-    height: 160px;
-    margin-top: 10px;
-    text-align: center;
-    width: 100%;
-  }
-  .subtitle {
-    display: block;
-    font-size: 14px;
-    margin-top: 20px;
-  }
-  .xo {
-    float: right;
-    position: relative;
-      bottom: 40px;
-      right: 20px;
-  }
+}
+
+.navbar-collapse.fixed {
+  background-color: @color-black;
+  position: fixed;
+  top: 30px;
+  left: 0;
+  right: 0;
 }

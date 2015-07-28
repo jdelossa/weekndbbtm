@@ -1,18 +1,4 @@
 /*
-Theme Name: The Weeknd BBTM
-Theme URI: http://theweekndbbtm.com
-Description: The Weeknd's BBTM Countdown
-Version: 1.0
-Author: Joanna De Los Santos
-Author URI: http://joannadelossantos.com
-Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
-License: GNU General Public License v2.0 & Apache License 2.0
-License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
-*/
-
-/* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
-
-/*
 
 WP-Bootstrap - Main Styles
 
@@ -8803,7 +8789,7 @@ WP-Bootstrap - Gallery
 /* Custom Theme */
 body {
   padding-top: 0;
-  background-color: #111111;
+  background-color: #1D1313;
 }
 h1,
 h2,
@@ -8811,45 +8797,193 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ol,
+ul {
   color: #ffffff;
+}
+h4 {
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 a {
   color: #e4ce19;
-  text-decoration: underline;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 1s;
+}
+blockquote {
+  font-size: 16px;
+  font-style: italic;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 40px;
+  border-top: 2.5px solid #eeeeee;
+  border-left: none;
+}
+.center {
+  text-align: center;
+}
+#main {
+  padding-top: 60px;
+}
+.instagram {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+.instagram-placeholder {
+  float: left;
+  margin: 10px 0;
+  width: 25%;
+}
+.instagram-placeholder img {
+  opacity: 0.8;
+  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  filter: grayscale(100%);
+  padding: 10px;
+  width: 100%;
+}
+.instagram-placeholder img:hover,
+.instagram-placeholder img:focus,
+.instagram-placeholder img:active {
+  transform: 1s;
+  -webkit-filter: grayscale(0);
+  filter: gray;
+  filter: grayscale(0);
+}
+.embed-responsive iframe {
+  height: 300px;
+}
+.embed-responsive.embed-responsive-4by3 {
+  padding-bottom: 100px;
+}
+.third {
+  float: left;
+  height: 300px;
+  width: 32%;
+  margin: 0 5px;
+}
+.header-fixed-top {
+  background-color: #421717;
+  box-shadow: #040101 0px 3px 3px;
+  height: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1060;
+}
+.header-fixed-top a > p {
+  border-left: 1px solid rgba(17, 17, 17, 0.2);
+  border-right: 1px solid rgba(17, 17, 17, 0.2);
+  display: inline;
+  padding: 9px;
+  position: relative;
+  top: 4px;
+  text-transform: uppercase;
+}
+.header-fixed-top a > p:hover,
+.header-fixed-top a > p:focus,
+.header-fixed-top a > p:active {
+  border-color: #e4ce19;
+  color: #e4ce19;
+  text-decoration: none !important;
+}
+.header-fixed-top a > i.fa {
+  color: #ffffff;
+  font-size: 18px;
+  padding-left: 25px;
+  position: relative;
+  top: 6px;
+}
+.header-fixed-top a > i.fa:hover,
+.header-fixed-top a > i.fa:focus,
+.header-fixed-top a > i.fa:active {
+  color: #e4ce19;
+}
+.header-fixed-top a > .xo {
+  background-image: url('images/XO.png');
+  float: right;
+  height: 30px;
+  width: 30px;
+}
+.header-fixed-top a > .xo:hover,
+.header-fixed-top a > .xo:focus,
+.header-fixed-top a > .xo:active {
+  background-image: url('images/XO-hover.png');
 }
 .navbar-static-top {
+  background-image: url('images/roseBackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #111111;
-  height: 190px;
+  box-shadow: #040101 0px 3px 3px;
+  height: 150px;
+  top: 12px;
 }
 .navbar-static-top .navbar-header {
-  width: 75%;
-  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.navbar-static-top .navbar-header .navbar-brand {
   position: absolute;
   left: 0;
   right: 0;
 }
-.navbar-static-top .navbar-brand {
-  background: url("images/tw.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 325px ;
-  border: solid 1px #ffffff;
-  height: 160px;
-  margin-top: 10px;
-  text-align: center;
+.navbar-static-top .navbar-header .navbar-brand img {
+  margin: 25px auto;
+  width: 280px;
+}
+.navbar-static-top .navbar-collapse {
+  background-color: #111111;
+  position: relative;
+  top: 150px;
   width: 100%;
 }
-.navbar-static-top .subtitle {
-  display: block;
-  font-size: 14px;
-  margin-top: 20px;
+.navbar-static-top .navbar-collapse .navbar-nav {
+  float: none;
+  margin: 0;
+  text-align: CENTER;
 }
-.navbar-static-top .xo {
-  float: right;
-  position: relative;
-  bottom: 40px;
-  right: 20px;
+.navbar-static-top .navbar-collapse .navbar-nav li {
+  float: none;
+  display: inline-block;
+}
+.navbar-static-top .navbar-collapse .navbar-nav li > a {
+  text-transform: uppercase;
+  margin: 0 5px;
+}
+.navbar-static-top .navbar-collapse .navbar-nav li > a:hover,
+.navbar-static-top .navbar-collapse .navbar-nav li > a:active,
+.navbar-static-top .navbar-collapse .navbar-nav li > a:focus {
+  background-color: #421717;
+  color: #ffffff;
+  transition: 0.5s;
+}
+.navbar-static-top .navbar-toggle {
+  position: fixed;
+  background-color: rgba(17, 17, 17, 0.8);
+  left: 0;
+  top: 40px;
+}
+.navbar-static-top .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+  color: #ffffff;
+}
+.navbar-collapse.fixed {
+  background-color: #111111;
+  position: fixed;
+  top: 30px;
+  left: 0;
+  right: 0;
 }
 .jumbotron {
   background: url("images/weekndAlbum.jpg");
@@ -8864,46 +8998,86 @@ a {
   text-align: center;
 }
 .clock span {
-  font-size: 50px;
+  font-size: 35px;
   padding: 0 10px;
   text-shadow: #ffffff 1px 1px 1px;
 }
+@media (max-width: 992px) {
+  .third {
+    margin: 10px 5px;
+    width: 99%;
+  }
+  .instagram-placeholder {
+    width: 33%;
+  }
+  blockquote {
+    width: 75%;
+  }
+}
 @media (max-width: 767px) {
+  body {
+    padding-top: 125px;
+  }
+  h4 {
+    text-align: center;
+  }
+  #main {
+    padding-top: 20px;
+  }
   .navbar-static-top {
+    position: fixed;
+    left: 0;
+    right: 0;
     height: 120px;
   }
-  .navbar-static-top .navbar-brand {
-    background-size: 225px;
-    height: 120px;
+  .navbar-static-top .navbar-header .navbar-brand img {
+    margin: 20px auto;
+    width: 210px;
   }
-  .navbar-static-top .xo {
-    right: 1px;
+  .navbar-static-top .navbar-toggle {
+    top: 55px;
   }
-  .jumbotron {
-    background-size: 350px;
+  .navbar-static-top .navbar-collapse {
+    border-top: none;
+    position: fixed;
+    top: 130px;
   }
-  .clock span {
-    font-size: 40px;
+  .navbar-static-top .navbar-collapse .navbar-nav li > a {
+    font-size: 10px;
+  }
+  .instagram-placeholder {
+    width: 50%;
   }
 }
 @media (max-width: 480px) {
+  body {
+    padding-top: 110px;
+  }
+  blockquote {
+    width: 100%;
+  }
   .navbar-static-top {
     height: 95px;
   }
-  .navbar-static-top .navbar-brand {
-    background-size: 165px;
-    height: 95px;
+  .navbar-static-top .navbar-header .navbar-brand img {
+    margin: 15px auto;
+    width: 190px;
   }
-  .navbar-static-top .xo {
-    bottom: 35px;
-    width: 30px;
+  .navbar-static-top .navbar-toggle {
+    top: 40px;
+  }
+  .navbar-static-top .navbar-collapse {
+    top: 105px;
   }
   .clock {
     padding-left: 20px;
     padding-right: 20px;
   }
   .clock span {
-    font-size: 35px;
+    font-size: 22.5px;
+  }
+  .instagram-placeholder {
+    width: 100%;
   }
   footer p {
     text-align: center;

@@ -1,0 +1,7 @@
+{
+    "allowedExtensions":["less"],
+    "defaults": {
+        "watchFolder": "library/less",
+        "outputFolder": "weekndbbtm/"
+    }
+}

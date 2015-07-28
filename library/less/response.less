@@ -1,41 +1,85 @@
-@media (max-width: 767px) {
-  .navbar-static-top {
-    height: 120px;
-    .navbar-brand {
-      background-size: 225px;
-      height: 120px;
-    }
-    .xo {
-      right: 1px;
-    }
+
+@media(max-width: 992px) {
+  .third {
+    margin: 10px 5px;
+    width: 99%;
   }
-  .jumbotron {
-      background-size: 350px;
+  .instagram-placeholder {
+    width: 33%;
   }
-  .clock {
-    span {
-      font-size: 40px;
-    }
+  blockquote {
+    width: 75%;
   }
 }
+@media (max-width: 767px) {
+  body {
+    padding-top: 125px;
+  }
+  h4 {
+    text-align: center;
+  }
+  #main {
+    padding-top: 20px;
+  }
+  .navbar-static-top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 120px;
+    .navbar-header .navbar-brand img {
+      margin: 20px auto;
+      width: 210px;
+    }
+    .navbar-toggle {
+      top: 55px
+    }
+    .navbar-collapse {
+      border-top: none;
+      position: fixed;
+        top: 130px;
+
+      .navbar-nav {
+        li > a {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .instagram-placeholder {
+    width: 50%;
+  }
+}
+
 @media (max-width: 480px) {
+  body {
+    padding-top: 110px;
+  }
+  blockquote {
+    width: 100%;
+  }
+
   .navbar-static-top {
     height: 95px;
-    .navbar-brand {
-      background-size: 165px;
-      height: 95px;
+    .navbar-header .navbar-brand img {
+      margin: 15px auto;
+      width: 190px;
     }
-    .xo {
-      bottom: 35px;
-      width: 30px;
+    .navbar-toggle {
+      top: 40px
+    }
+    .navbar-collapse {
+      top: 105px;
     }
   }
   .clock {
     padding-left: 20px;
     padding-right: 20px;
     span {
-      font-size: 35px;
+      font-size: 22.5px;
     }
+  }
+  .instagram-placeholder {
+    width: 100%;
   }
   footer {
     p {
