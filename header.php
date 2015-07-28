@@ -13,6 +13,7 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no" />
 		<meta name=”robots” content=”noindex, nofollow” />
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+        <link rel="icon" type="image/x-icon" href="<?php echo get_bloginfo('template_directory');?>/favicon.ico" />
         <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/bower_components/font-awesome/css/font-awesome.min.css"/>
 
 		<!-- wordpress head functions -->
@@ -71,7 +72,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#about">About</a></li>
                         <li><a href="#tracks">Tracks</a></li>
-                        <li><a href="#bbtm">#BeautyBehindTheMadness</a></li>
+                        <li><a href="#links">#BeautyBehindTheMadness</a></li>
                     </ul>
                 </div>
 			</div> <!-- end .navbar -->

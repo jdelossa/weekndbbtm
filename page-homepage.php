@@ -52,7 +52,7 @@ Template Name: Homepage
                                 </div>
 
                                 <div class="instagram">
-                                    <h4 id="bbtm">Beauty Behind The Madness</h4>
+                                    <h4 id="links">Beauty Behind The Madness</h4>
                                 </div>
 
 							</div>
