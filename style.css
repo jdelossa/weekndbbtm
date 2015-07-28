@@ -9076,11 +9076,11 @@ blockquote {
     margin: 0 2px;
   }
   .clock {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .clock span {
-    font-size: 18px;
+    font-size: 25px;
   }
   .instagram-placeholder {
     width: 100%;
