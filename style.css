@@ -9069,17 +9069,21 @@ blockquote {
   .navbar-static-top .navbar-collapse {
     top: 105px;
   }
-  .clock {
+  .navbar-static-top .navbar-collapse .navbar-nav li > a {
+    font-size: 7px;
+    margin: 0 2px;
+  }
+  .navbar-static-top .clock {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .clock span {
+  .navbar-static-top .clock span {
     font-size: 22.5px;
   }
-  .instagram-placeholder {
+  .navbar-static-top .instagram-placeholder {
     width: 100%;
   }
-  footer p {
+  .navbar-static-top footer p {
     text-align: center;
     width: 100%;
   }

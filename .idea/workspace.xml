@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a54cde5-5f3f-4a0a-8fe5-76e6f95e1659" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/XO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/roseFrame.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/less/body.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/less/instagram.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/js/jquery.instagram.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_extras.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/XO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tw.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/bower_components/font-awesome/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/bower_components/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/bower_components/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse.html" afterPath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/clock.less" afterPath="$PROJECT_DIR$/library/less/clock.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/colors.less" afterPath="$PROJECT_DIR$/library/less/colors.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/bower_components/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/header.less" afterPath="$PROJECT_DIR$/library/less/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-homepage.php" afterPath="$PROJECT_DIR$/page-homepage.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/response.less" afterPath="$PROJECT_DIR$/library/less/response.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/dist/css/styles.cafe6462.min.css" afterPath="$PROJECT_DIR$/library/dist/css/styles.cafe6462.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/dist/css/styles.css" afterPath="$PROJECT_DIR$/library/dist/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/dist/css/styles.f6413c85.min.css" afterPath="$PROJECT_DIR$/library/dist/css/styles.f6413c85.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/styles.less" afterPath="$PROJECT_DIR$/library/less/styles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wordpress-bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,21 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="response.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/library/less/response.less">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.91935486" vertical-offset="240" max-vertical-offset="1425">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136455">
+              <caret line="12" column="100" selection-start-line="12" selection-start-column="100" selection-end-line="12" selection-end-column="100" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/less/header.less">
+      <file leaf-file-name="response.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/library/less/response.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-60.625" vertical-offset="0" max-vertical-offset="1860">
-              <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.87903225" vertical-offset="895" max-vertical-offset="1530">
+              <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -138,7 +99,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/library/less/jumbotron.less" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/library/less/footer.less" />
         <option value="$PROJECT_DIR$/library/less/clock.less" />
         <option value="$PROJECT_DIR$/library/js/jquery.instagram.min.js" />
@@ -151,6 +111,7 @@
         <option value="$PROJECT_DIR$/library/less/header.less" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/library/less/styles.less" />
+        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/library/less/response.less" />
       </list>
     </option>
@@ -424,13 +385,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="133815">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -512,13 +467,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -555,20 +504,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="180">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="133995">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1438050605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,14 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/less/styles.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="450">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/less/colors.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09677419" vertical-offset="0" max-vertical-offset="620">
@@ -672,9 +599,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136455">
+          <caret line="12" column="100" selection-start-line="12" selection-start-column="100" selection-end-line="12" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/less/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="450">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/library/less/header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-60.625" vertical-offset="0" max-vertical-offset="1860">
+        <state vertical-scroll-proportion="2.346774" vertical-offset="0" max-vertical-offset="1860">
           <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
           <folding />
         </state>
@@ -682,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library/less/response.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91935486" vertical-offset="240" max-vertical-offset="1425">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.87903225" vertical-offset="895" max-vertical-offset="1530">
+          <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
           <folding />
         </state>
       </provider>

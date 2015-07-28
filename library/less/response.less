@@ -54,6 +54,7 @@
   body {
     padding-top: 110px;
   }
+
   blockquote {
     width: 100%;
   }
@@ -69,22 +70,28 @@
     }
     .navbar-collapse {
       top: 105px;
+      .navbar-nav {
+        li > a {
+          font-size: 7px;
+          margin: 0 2px;
+        }
+      }
     }
-  }
-  .clock {
-    padding-left: 20px;
-    padding-right: 20px;
-    span {
-      font-size: 22.5px;
+    .clock {
+      padding-left: 20px;
+      padding-right: 20px;
+      span {
+        font-size: 22.5px;
+      }
     }
-  }
-  .instagram-placeholder {
-    width: 100%;
-  }
-  footer {
-    p {
-      text-align: center;
+    .instagram-placeholder {
       width: 100%;
+    }
+    footer {
+      p {
+        text-align: center;
+        width: 100%;
+      }
     }
   }
 }
