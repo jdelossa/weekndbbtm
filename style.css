@@ -8945,7 +8945,7 @@ blockquote {
   width: 280px;
 }
 .navbar-static-top .navbar-collapse {
-  background-color: #111111;
+  background-color: #1D1313;
   position: relative;
   top: 150px;
   width: 100%;
@@ -9000,7 +9000,7 @@ blockquote {
   text-align: center;
 }
 .clock span {
-  font-size: 35px;
+  font-size: 55px;
   padding: 0 10px;
   text-shadow: #ffffff 1px 1px 1px;
 }
@@ -9080,7 +9080,7 @@ blockquote {
     padding-right: 50px;
   }
   .clock span {
-    font-size: 25px;
+    font-size: 30px;
   }
   .instagram-placeholder {
     width: 100%;

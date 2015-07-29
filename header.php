@@ -57,24 +57,11 @@
 				<div class="container">
 
 					<div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bbtm" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
                        <a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>"
                        href="<?php echo home_url(); ?>"><img src="<?php echo get_bloginfo('template_directory');?>/images/tw.png" alt="The Weeknd Beauty Behind The Madness"/></a>
 					</div>
 
 				</div> <!-- end .container -->
-                <div class="collapse navbar-collapse" id="bbtm">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#about">About</a></li>
-                        <li><a href="#tracks">Tracks</a></li>
-                        <li><a href="#links">#BeautyBehindTheMadness</a></li>
-                    </ul>
-                </div>
 			</div> <!-- end .navbar -->
 
 		</header> <!-- end header -->
