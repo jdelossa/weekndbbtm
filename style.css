@@ -12,7 +12,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 
 /* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
 
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -9078,8 +9077,8 @@ blockquote {
     margin: 0 2px;
   }
   .clock {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .clock span {
     font-size: 36px;
