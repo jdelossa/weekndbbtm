@@ -1,17 +1,14 @@
 /*
-Theme Name: The Weeknd BBTM
-Theme URI: http://theweekndbbtm.com
-Description: The Weeknd's BBTM Countdown
-Version: 1.0
-Author: Joanna De Los Santos
-Author URI: http://joannadelossantos.com
-Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
-License: GNU General Public License v2.0 & Apache License 2.0
-License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+
+WP-Bootstrap - Main Styles
+
 */
+/*
 
-/* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
+WP-Bootstrap
 
+*/
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8833,6 +8830,11 @@ blockquote {
 }
 #main {
   padding-top: 60px;
+}
+#main article img {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
 }
 .instagram {
   overflow: hidden;

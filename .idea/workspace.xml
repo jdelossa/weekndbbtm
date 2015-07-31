@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a54cde5-5f3f-4a0a-8fe5-76e6f95e1659" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/response.less" afterPath="$PROJECT_DIR$/library/less/response.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/instagram.less" afterPath="$PROJECT_DIR$/library/less/instagram.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="wordpress-bootstrap.iws" />
@@ -40,11 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30279502" vertical-offset="0" max-vertical-offset="136530">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136560">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="instagram.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/library/less/instagram.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5322581" vertical-offset="60" max-vertical-offset="780">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -112,7 +122,6 @@
         <option value="$PROJECT_DIR$/library/less/footer.less" />
         <option value="$PROJECT_DIR$/library/js/jquery.instagram.min.js" />
         <option value="$PROJECT_DIR$/library/less/colors.less" />
-        <option value="$PROJECT_DIR$/library/less/instagram.less" />
         <option value="$PROJECT_DIR$/library/less/body.less" />
         <option value="$PROJECT_DIR$/library/less/contact.less" />
         <option value="$PROJECT_DIR$/footer.php" />
@@ -123,6 +132,7 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/library/less/response.less" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/library/less/instagram.less" />
       </list>
     </option>
   </component>
@@ -585,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/js/jquery.instagram.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06987578" vertical-offset="0" max-vertical-offset="644">
-          <caret line="3" column="1057" selection-start-line="3" selection-start-column="1057" selection-end-line="3" selection-end-column="1057" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/less/footer.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.048387095" vertical-offset="0" max-vertical-offset="620">
@@ -610,13 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09677419" vertical-offset="0" max-vertical-offset="620">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/less/instagram.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8548387" vertical-offset="70" max-vertical-offset="690">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -677,10 +673,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/library/js/jquery.instagram.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="617">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30279502" vertical-offset="0" max-vertical-offset="136530">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136560">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/less/instagram.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5322581" vertical-offset="60" max-vertical-offset="780">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding />
         </state>
       </provider>
