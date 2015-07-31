@@ -39,7 +39,7 @@
             function createPhotoElement(photo) {
                 var innerHtml = jQuery('<img>')
                     .addClass('instagram-image')
-                    .attr('src', photo.images.thumbnail.url);
+                    .attr('src', photo.images.standard_resolution.url);
 
                 innerHtml = jQuery('<a>')
                     .attr('target', '_blank')

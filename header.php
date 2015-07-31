@@ -45,7 +45,7 @@
                     <a href="http://theweeknd.co/BeautyBehindTheMadness" target="_blank"><p class="small">Pre-order Now</p></a>
                     <div class="pull-right">
                         <a href="https://twitter.com/theweeknd/" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="https://instagram.com/abelxo" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://instagram.com/theweekndbbtm" target="_blank"><i class="fa fa-instagram"></i></a>
                     </div>
                     <a href="http://theweeknd.com" target="_blank">
                         <span class="xo"></span>
