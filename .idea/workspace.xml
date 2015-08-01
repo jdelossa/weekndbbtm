@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a54cde5-5f3f-4a0a-8fe5-76e6f95e1659" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-homepage.php" afterPath="$PROJECT_DIR$/page-homepage.php" />
     </list>
     <ignored path="wordpress-bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page-homepage.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-homepage.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-homepage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1666666" vertical-offset="478" max-vertical-offset="1545">
-              <caret line="30" column="61" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.29032257" vertical-offset="285" max-vertical-offset="1545">
+              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
               <folding>
                 <element signature="e#6#35#0#PHP" expanded="true" />
               </folding>
@@ -93,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11290322" vertical-offset="545" max-vertical-offset="1635">
-              <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+            <state vertical-scroll-proportion="-44.375" vertical-offset="0" max-vertical-offset="1635">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,7 +146,6 @@
         <option value="$PROJECT_DIR$/library/less/body.less" />
         <option value="$PROJECT_DIR$/library/less/contact.less" />
         <option value="$PROJECT_DIR$/library/less/styles.less" />
-        <option value="$PROJECT_DIR$/page-homepage.php" />
         <option value="$PROJECT_DIR$/library/less/header.less" />
         <option value="$PROJECT_DIR$/library/less/clock.less" />
         <option value="$PROJECT_DIR$/library/less/response.less" />
@@ -156,6 +153,7 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/page-homepage.php" />
       </list>
     </option>
   </component>
@@ -657,16 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-homepage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1666666" vertical-offset="478" max-vertical-offset="1545">
-          <caret line="30" column="61" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="61" />
-          <folding>
-            <element signature="e#6#35#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/less/response.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.833334" vertical-offset="835" max-vertical-offset="1530">
@@ -719,9 +707,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11290322" vertical-offset="545" max-vertical-offset="1635">
-          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+        <state vertical-scroll-proportion="-44.375" vertical-offset="0" max-vertical-offset="1635">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29032257" vertical-offset="285" max-vertical-offset="1545">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+          <folding>
+            <element signature="e#6#35#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

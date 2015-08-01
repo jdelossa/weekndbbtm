@@ -28,8 +28,8 @@ Template Name: Homepage
                                 jQuery(function ($) {
                                     $('#clock').countdown('2015/08/28', function(event) {
                                         var $this = $(this).html(event.strftime(''
-                                        + '<span>%w</span> weeks '
-                                        + '<span>%d</span> days '
+
+                                        + '<span>%-D</span> days '
                                         + '<span>%H</span> hr '
                                         + '<span>%M</span> min '
                                         + '<span>%S</span> sec'));
