@@ -86,6 +86,11 @@
                         }
                     }
                 });
+                //Set the carousel options
+                jQuery('#quote-carousel').carousel({
+                    pause: true,
+                    interval: 4000,
+                });
             });
         </script>
         <script>

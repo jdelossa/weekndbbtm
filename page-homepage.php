@@ -45,7 +45,7 @@ Template Name: Homepage
 
 						<section class="row post_content">
 							<div class="col-sm-12">
-								<div class="carousel slide" data-ride="carousel" id="quote-carousel" style="height: 55vh;">
+								<div class="carousel slide" data-ride="carousel" id="quote-carousel">
 										<!-- Bottom Carousel Indicators -->
 										<ol class="carousel-indicators">
 											<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
