@@ -45,7 +45,7 @@ Template Name: Homepage
 
 						<section class="row post_content">
 							<div class="col-sm-12">
-								<div class="carousel slide" data-ride="carousel" id="quote-carousel" style="height: 55vh;">
+								<div class="carousel slide" data-ride="carousel" id="quote-carousel" style="height: 45vh;">
 										<!-- Bottom Carousel Indicators -->
 										<ol class="carousel-indicators">
 											<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
@@ -60,7 +60,6 @@ Template Name: Homepage
 											<div class="item active">
 												<blockquote>
 													<div class="row">
-														<br><br>
 														<div class="col-sm-3 text-center">
 															<img class="img-circle" src="http://theweekndbbtm.com/wp-content/uploads/2015/08/thumbnail-weeknd-nyt.jpg" style="width: 100px;height:100px;">
 														</div>
@@ -75,7 +74,6 @@ Template Name: Homepage
 											<div class="item">
 												<blockquote>
 													<div class="row">
-														<br><br>
 														<div class="col-sm-3 text-center">
 															<img class="img-circle" src="http://theweekndbbtm.com/wp-content/uploads/2015/08/the-weeknd-coachella-thumbnail.jpg" style="width: 100px;height:100px;">
 														</div>
@@ -90,7 +88,6 @@ Template Name: Homepage
 											<div class="item">
 												<blockquote>
 													<div class="row">
-														<br><br>
 														<div class="col-sm-3 text-center">
 															<img class="img-circle" src="http://theweekndbbtm.com/wp-content/uploads/2015/08/weeknd-billboard-thumbnail.png" style="width: 100px;height:100px;">
 														</div>
