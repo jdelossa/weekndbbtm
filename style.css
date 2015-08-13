@@ -12,6 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 
 /* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
 
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8832,7 +8833,7 @@ blockquote {
   text-align: center;
 }
 #main {
-  padding-top: 60px;
+  padding-top: 25px;
 }
 #main article img {
   height: auto;
@@ -9030,7 +9031,7 @@ blockquote {
     text-align: center;
   }
   #main {
-    padding-top: 20px;
+    padding-top: 15px;
   }
   .navbar-static-top {
     position: fixed;
@@ -9098,4 +9099,21 @@ blockquote {
 }
 .small {
   font-size: 70%;
+}
+.item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+}
+.carousel-indicators {
+  bottom: 5px;
+}
+.carousel-indicators li {
+  height: 8px;
+  width: 8px;
+}
+.carousel-indicators .active {
+  height: 9px;
+  width: 9px;
 }
