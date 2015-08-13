@@ -45,7 +45,7 @@ Template Name: Homepage
 
 						<section class="row post_content">
 							<div class="col-sm-12">
-								<div class="carousel slide" data-ride="carousel" id="quote-carousel">
+								<div class="carousel slide" data-ride="carousel" id="quote-carousel" style="height: 55vh;">
 										<!-- Bottom Carousel Indicators -->
 										<ol class="carousel-indicators">
 											<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
@@ -60,11 +60,12 @@ Template Name: Homepage
 											<div class="item active">
 												<blockquote>
 													<div class="row">
+														<br><br>
 														<div class="col-sm-3 text-center">
 															<img class="img-circle" src="http://theweekndbbtm.com/wp-content/uploads/2015/08/thumbnail-weeknd-nyt.jpg" style="width: 100px;height:100px;">
 														</div>
 														<div class="col-sm-9">
-															<p>It’s about me being who I am and stepping out of my comfort zone to try to feel something else besides what I’ve been feeling the past four years, ups and downs.</p>
+															<p>It’s about me being who I am and stepping out of my comfort zone to try to feel something else besides what I’ve been feeling the past four years - ups and downs ... In my past albums, there were never ups.</p>
 															<small>The Weeknd, <a href="http://www.nytimes.com/2015/08/02/magazine/can-the-weeknd-turn-himself-into-the-biggest-pop-star-in-the-world.html" target="_blank">The New York Times</a></small>
 														</div>
 													</div>
@@ -74,6 +75,7 @@ Template Name: Homepage
 											<div class="item">
 												<blockquote>
 													<div class="row">
+														<br><br>
 														<div class="col-sm-3 text-center">
 															<img class="img-circle" src="http://theweekndbbtm.com/wp-content/uploads/2015/08/the-weeknd-coachella-thumbnail.jpg" style="width: 100px;height:100px;">
 														</div>
@@ -88,6 +90,7 @@ Template Name: Homepage
 											<div class="item">
 												<blockquote>
 													<div class="row">
+														<br><br>
 														<div class="col-sm-3 text-center">
 															<img class="img-circle" src="http://theweekndbbtm.com/wp-content/uploads/2015/08/weeknd-billboard-thumbnail.png" style="width: 100px;height:100px;">
 														</div>
